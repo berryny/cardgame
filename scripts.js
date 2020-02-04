@@ -6,44 +6,44 @@ const animals = {
     {
       animal: "sheep",
       sound:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2Fsheepy%2Cgoat.mp3?v=1580363953494",
+        "assets/audio/sheepy-goat.mp3",
       image:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2Fsheep.png?v=1580364045669"
+        "assets/img/sheep.png"
     },
     {
       animal: "cat",
       sound:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2Fcat.mp3?v=1580363953669",
+        "assets/audio/cat.mp3",
       image:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2Fcat.png?v=1580364045769"
+        "assets/img/cat.png"
     },
     {
       animal: "cow",
       sound:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2FcowMoo.mp3?v=1580363953698",
+        "assets/audio/cowMoo.mp3",
       image:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2Fcow.png?v=1580364047109"
+        "assets/img/cow.png"
     },
     {
       animal: "lion",
       sound:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2Flion.mp3?v=1580363953638",
+        "assets/audio/lion.mp3",
       image:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2Flion.png?v=1580364045972"
+        "assets/img/lion.png"
     },
     {
       animal: "pig",
       sound:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2Fpig.mp3?v=1580363953530",
+        "assets/audio/pig.mp3",
       image:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2FpigA.png?v=1580364046841"
+        "assets/img/pig.png"
     },
     {
       animal: "frog",
       sound:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2Ffrog.mp3?v=1580363953711",
+        "assets/audio/frog.mp3",
       image:
-        "https://cdn.glitch.com/26af7533-1c1d-40eb-af39-4f39cdfeecf3%2Ffrog.png?v=1580364046874"
+        "assets/img/frog.png"
     }
   ]
 };
