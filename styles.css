@@ -1,0 +1,126 @@
+/* CSS files add styling rules to your content */
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,600,500,700|Mansalva&display=swap");
+
+body {
+  font-family: "Comfortaa", cursive, helvetica, arial, sans-serif;
+  margin: 0;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+.bg-lightblue {
+  background-color: rgb(191, 225, 248);
+}
+.hero {
+  display: flex;
+  align-items: center;
+  background-image: url("https://baby-games--hortencia718.repl.co/img/newpic.jpg");
+  background-repeat: repeat-x;
+  background-position: center center;
+  background-size: contain;
+  /* height: 50vh; */
+  opacity: 0.7;
+}
+.hero .hero-content {
+  text-align: center;
+  margin: 0;
+  padding: 0 20%;
+}
+.hero .hero-content h1 {
+  font-family: "Mansalva", cursive;
+  font-style: italic;
+  font-size: 4em;
+  color: rgb(90, 19, 182);
+}
+.hero .hero-content p {
+  font-size: 1.25em;
+}
+
+.hero .hero-content .playBtn {
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Mansalva";
+  font-weight: 400;
+  color: rgb(211, 106, 7);
+  background-color: rgb(28, 142, 177);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero .hero-content button:hover {
+  background-color: green;
+  color: white;
+}
+
+/** Animal Card **/
+.card-thumbnail {
+  margin: 0 auto;
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  cursor: pointer;
+}
+.card-thumbnail img {
+  width: 100%;
+  max-width: 200px;
+}
+#animal-img {
+  padding: 5% 0;
+}
+
+#animal-img .card-thumbnail img {
+  max-width: 300px;
+}
+
+#animal-img #animal-thumbnail {
+  width: 300px;
+}
+
+#animal-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 1%;
+  border-top: 1px solid #666;
+}
+
+.popMSG {
+  color: rgb(202, 168, 235);
+  font-size: 3em;
+  text-align: center;
+}
+
+
+/** Footer **/
+footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .hero {
+    background-size: cover;
+  }
+  .hero .hero-content {
+    padding: 0 1%;
+  }
+}
